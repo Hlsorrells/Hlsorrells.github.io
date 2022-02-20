@@ -1,8 +1,16 @@
-import React from "react";
+import { Routes, Route } from "react-router-dom";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Home from "./routes/Home";
+
 const App = () => {
   return (
     <>
-    <h1>This is my basic React Start File :) </h1>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
     </>
   )
 }
