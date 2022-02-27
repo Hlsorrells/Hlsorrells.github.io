@@ -1,0 +1,34 @@
+body {
+    background-image: url(./images/greyWoodBoards1024x576.jpg);
+    background-repeat: no-repeat;
+    height: 100vmax;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.nav-link {
+    display: inline;
+    color: rgb(84,4,172);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: rgb(222,205,238);
+    text-decoration: underline;
+}
+
+/* Had to use important flag to override the bootstrap reboot.scss hover and focus styles to keep the active class styles primary */
+.active {
+    color: rgb(172,132,212) !important;
+    text-decoration: none !important;
+}

@@ -10,18 +10,20 @@ const Header = () => {
 
     return (
         <>
-            <header>
-                <div className='container'>
-                    <div className='logoContainer'>
-                        <img src={logo} alt='logo' className='logo' />
+            <header className='navbar-dark bg-transparent'>
+                <nav className='navbar navbar-expand{-sm|-md|-lg|-xl|-xxl}'>
+                    <div className='container-fluid'>
+                        <a className='navbar-brand' href='/'>
+                            <img src={logo} alt='logo' className='logo' />
+                        </a>
+                        <div>
+                            {/* Check the current pathname using JS ternary operator & if true setting class to active*/}
+                            <NavLink exact className={`nav-link ${splitLocation[1] === '' ? 'active' : ''}`} to='/' >Home</NavLink> {' '}
+                            <NavLink className={`nav-link ${splitLocation[1] === 'about' ? 'active' : ''}`} to='/about' >About</NavLink> {' '}
+                            <NavLink className={`nav-link ${splitLocation[1] === 'contact' ? 'active' : ''}`} to='/contact' >Contact</NavLink>
+                        </div>
                     </div>
-                    <nav>
-                        {/* Check the current pathname using JS ternary operator & if true setting class to active*/}
-                        <NavLink className={splitLocation[1] === '' ? 'active' : ''} to='/' >Home</NavLink> {' '}
-                        <NavLink className={splitLocation[1] === 'about' ? 'active' : ''} to='/about' >About</NavLink> {' '}
-                        <NavLink className={splitLocation[1] === 'contact' ? 'active' : ''} to='/contact' >Contact</NavLink>
-                    </nav>
-                </div>
+                </nav>
             </header>
         </>
     )
