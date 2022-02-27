@@ -1,6 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../images/android-chrome-192x192.png';
-import './Header.css';
 
 const Header = () => {
     // assigning location variable
