@@ -1,34 +1,73 @@
 body {
     background-image: url(./images/greyWoodBoards1024x576.jpg);
     background-repeat: no-repeat;
-    height: 100vmax;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
     background-size: 100% 100%;
+    font-family: cursive;
 }
-
 h1 {
-    color: blueviolet;
+    color: silver;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(84,4,172);
+    text-align: center;
+    padding-top: 5px;
+
+}
+p {
+    color: rgb(84,4,172);
+    max-width: 75ch;
+    padding: 15px;
+    margin: auto;
 }
 
+/* Header and Navigation Classes */
 .logo {
     max-height: 50px;
 }
-
 .nav-link {
     display: inline;
     color: rgb(84,4,172);
 }
-
 .nav-link:hover, .nav-link:focus {
     color: rgb(222,205,238);
     text-decoration: underline;
 }
-
 /* Had to use important flag to override the bootstrap reboot.scss hover and focus styles to keep the active class styles primary */
 .active {
     color: rgb(172,132,212) !important;
     text-decoration: none !important;
+}
+
+/* Route Component Classes */
+.row {
+    margin: 15px;
+}
+.sectionContent {
+    background-color: rgb(222,205,238);
+    border: darkgray;
+    border-style: inset;
+    border-width: 10px;
+}
+
+/* About Component */
+#aboutTitle {
+    /* margin-bottom: 70px;  */
+    /* padding-bottom: 80px;  */
+    text-align: center; 
+    vertical-align: top;
+}
+#about-tiles {
+    margin: 10px;
+    border: darkgray;
+    border-style: inset;
+    border-width: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    align-self: center;
 }
