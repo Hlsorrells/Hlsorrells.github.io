@@ -20,6 +20,7 @@ const Header = () => {
                             {/* Check the current pathname using JS ternary operator & if true setting class to active*/}
                             <NavLink exact className={`nav-link ${splitLocation[1] === '' ? 'active' : ''}`} to='/' >Home</NavLink> {' '}
                             <NavLink className={`nav-link ${splitLocation[1] === 'about' ? 'active' : ''}`} to='/about' >About</NavLink> {' '}
+                            <NavLink className={`nav-link ${splitLocation[1] === 'projects' ? 'active' : ''}`} to='/projects' >Projects</NavLink> {' '}
                             <NavLink className={`nav-link ${splitLocation[1] === 'contact' ? 'active' : ''}`} to='/contact' >Contact</NavLink>
                         </div>
                     </div>
