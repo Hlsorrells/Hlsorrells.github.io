@@ -12,12 +12,20 @@ h1 {
     color: silver;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 h2 {
     color: rgb(84,4,172);
     text-align: center;
     padding-top: 5px;
 
+}
+h5 {
+    color: silver;
+    padding-bottom: 20px;
+    align-self: center;
+    width: 50vw;
 }
 p {
     color: rgb(84,4,172);
@@ -69,5 +77,9 @@ p {
     border-width: 10px;
     max-width: 200px;
     max-height: 200px;
+    align-self: center;
+}
+/* Home Components */
+#muddyMtn {
     align-self: center;
 }
