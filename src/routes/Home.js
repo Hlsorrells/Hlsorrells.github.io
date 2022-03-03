@@ -17,7 +17,7 @@ const Home = () => {
                 <section>
                     <div>
                         <h1>Make yourself at home by checking out my project page...</h1>
-                        <h1>or get to know me by reading my about page...</h1>
+                        <h1>Get to know me by reading my about page...</h1>
                         <h1>Find out how to reach me on my contact page...</h1>
                         <h1>Love to make your acquaintance soon!</h1>
                     </div>

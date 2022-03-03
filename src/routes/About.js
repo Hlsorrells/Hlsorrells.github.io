@@ -29,7 +29,7 @@ const About = () => {
                         {/* Section Header */}
                         <h2>Who I am</h2>
                         {/* Section Article */}
-                        <p>I am a wife and aunt that loves spending time with my family! My hobbies include hiking through the woods, camping under the stars, reading a good book, and playing video games with my nephew. While I am definitely an introvert, I do enjoy worshipping in my church, spending time with friends, working in my community, attending performances of the Wyoming symphony, and exploring small town fairs. My family is preparing to move back home to Wyoming where the snow makes the air clean and crisp, the wind never stops blowing, and the sunsets are spectacular!</p>
+                        <p>I am a wife and aunt that loves spending time with my family! My hobbies include hiking through the woods, camping under the stars, reading a good book, and playing video games with my nephew. While I am definitely an introvert, I do enjoy worshiping in my church, spending time with friends, working in my community, attending performances of the Wyoming symphony, and exploring small town fairs. My family is preparing to move back home to Wyoming where the snow makes the air clean and crisp, the wind never stops blowing, and the sunsets are spectacular!</p>
                     </div>
                 </section>
 
