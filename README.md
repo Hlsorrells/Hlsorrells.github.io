@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Welcome
+Thanks for visiting my portfolio website repo! As I am always learning, I will try to keep a list of technical debt on this readme along with any key learnings.
 
-## Available Scripts
+## How to find source code
+You will find my source code is located on the dev branch of this repo.
 
-In the project directory, you can run:
+## Key Learnings
+My best learning was working through getting the app deployed to GitHub Pages. There are many articles that described how to deploy to the application, but I had to figure out what I needed from the deployment. As I wanted to use my GitHub user page, I wanted to deploy from the main branch and store my source code on the dev branch. While GitHub pages would allow me to specify another branch as the source, I decided to show that I could work with the public code on the main branch and development in a separate branch.
 
-### `npm start`
+I enjoyed working with the React Router useLocation hook. It provided a quick means of obtaining the filepath which I could then parse into a variable. The variable was then used in each of the NavLink components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Working on the contact page, I had to search how to create a circle border around my profile pic and contain any overflow. I found a bit of code on stackoverflow that helped to keep the image from leaking outside of the border.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```css
+/* Contact Components */
+.round {
+    margin: 10px;
+    border-radius: 50%;
+    border: 10px solid darkgray;
+    max-width: 200px;
+    max-height: 200px;
+    /* Prevent background color leak outs */
+    -webkit-background-clip: padding-box; 
+    -moz-background-clip:    padding; 
+    background-clip:         padding-box;
+}
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technical Debt
+- forgot to change the website title for the browser tab! 
+- add a footer - saved this to test rebuilding live site
+- add react browserHistory to handle the browser button navigation
+- address the max width of the navigation bar for larger screens
+- change the project tiles to a carousel or continue working on standardizing sizes
+- fix responsiveness on the about page (see ipad) - the card tiles overlap the photos so need to work on the breakpoints
