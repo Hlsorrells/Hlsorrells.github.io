@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.224dce68.css",
+    "main.js": "/static/js/main.8f9e2c48.js",
+    "static/media/megabites.gif": "/static/media/megabites.c5406d80dad58e92fe8d.gif",
+    "static/media/drinkin-bad.gif": "/static/media/drinkin-bad.0c7b0f5c4006d06e58be.gif",
+    "static/media/CodeQuiz.gif": "/static/media/CodeQuiz.f01d6917815641cae47c.gif",
+    "static/media/SchoolSpot.gif": "/static/media/SchoolSpot.dfabfd7ad788e41c2973.gif",
+    "static/media/clement-helardot-95YRwf6CNw8-unsplash.jpg": "/static/media/clement-helardot-95YRwf6CNw8-unsplash.b6c3931702238e97de51.jpg",
+    "static/media/tetonMtnRange.JPG": "/static/media/tetonMtnRange.e483e95ec9a0c8eaad15.JPG",
+    "static/media/heatherSorrellsProfilePic.PNG": "/static/media/heatherSorrellsProfilePic.4348af55c989cbb9bef3.PNG",
+    "static/media/passwordGenerator.gif": "/static/media/passwordGenerator.d614aa1f661ecb01af64.gif",
+    "static/media/weatherDashboard.gif": "/static/media/weatherDashboard.fc91396056319712342c.gif",
+    "static/media/greyWoodBoards1024x576.jpg": "/static/media/greyWoodBoards1024x576.67dd835a636da4450e3a.jpg",
+    "static/media/muddyGapLookout.jpg": "/static/media/muddyGapLookout.a09517a0cdb0727937f2.jpg",
+    "index.html": "/index.html",
+    "main.224dce68.css.map": "/static/css/main.224dce68.css.map",
+    "main.8f9e2c48.js.map": "/static/js/main.8f9e2c48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.224dce68.css",
+    "static/js/main.8f9e2c48.js"
+  ]
+}
