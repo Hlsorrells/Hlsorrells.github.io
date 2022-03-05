@@ -29,7 +29,7 @@ Working on the contact page, I had to search how to create a circle border aroun
 ```
 
 ## Technical Debt
-- forgot to change the website title for the browser tab! 
+- ~~forgot to change the website title for the browser tab!~~
 - add a footer - saved this to test rebuilding live site
 - add react browserHistory to handle the browser button navigation
 - address the max width of the navigation bar for larger screens
