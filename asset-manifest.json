@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.130c90b1.css",
-    "main.js": "/static/js/main.376b912b.js",
+    "main.js": "/static/js/main.78b3567d.js",
     "static/media/megabites.gif": "/static/media/megabites.c5406d80dad58e92fe8d.gif",
     "static/media/drinkin-bad.gif": "/static/media/drinkin-bad.0c7b0f5c4006d06e58be.gif",
     "static/media/CodeQuiz.gif": "/static/media/CodeQuiz.f01d6917815641cae47c.gif",
@@ -15,10 +15,10 @@
     "static/media/muddyGapLookout.jpg": "/static/media/muddyGapLookout.a09517a0cdb0727937f2.jpg",
     "index.html": "/index.html",
     "main.130c90b1.css.map": "/static/css/main.130c90b1.css.map",
-    "main.376b912b.js.map": "/static/js/main.376b912b.js.map"
+    "main.78b3567d.js.map": "/static/js/main.78b3567d.js.map"
   },
   "entrypoints": [
     "static/css/main.130c90b1.css",
-    "static/js/main.376b912b.js"
+    "static/js/main.78b3567d.js"
   ]
 }
