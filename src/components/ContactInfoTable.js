@@ -8,7 +8,7 @@ const ContactInfoTable = () => {
                 </tr>
                 <tr>
                     <th>Browse through my code repos 💻</th>
-                    <td><a className='contactLink' href='https://gidub.com/Hlsorrells'>GitHub profile</a></td>
+                    <td><a className='contactLink' href='https://github.com/Hlsorrells'>GitHub profile</a></td>
                 </tr>
                 <tr>
                     <th>Check out my skills and experience 👩‍💻</th>
