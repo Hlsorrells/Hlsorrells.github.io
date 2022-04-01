@@ -59,6 +59,9 @@ figcaption {
     font-size: 16px;
     font-weight: bold;
 }
+table {
+    width: 100%;
+}
 th, td {
     padding: 5px;
     color: lightgray;
@@ -131,7 +134,8 @@ th, td {
 }
 .contactLink {
     display: inline;
-    color: rgb(84,4,172);
+    color: lightgray;
+    font-weight: bold;
 }
 .contactLink:hover, .contactLink:focus {
     color: rgb(222,205,238);
