@@ -13,9 +13,11 @@ const rootElement = document.getElementById("root");
 render(
   <>
     <BrowserRouter>
-      <Header />
-      <App />
-      <Footer />
+      <div className="appWrapper">
+        <Header />
+        <App />
+        <Footer />
+      </div>
     </BrowserRouter>
   </>,
   rootElement
