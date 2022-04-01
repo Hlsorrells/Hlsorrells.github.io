@@ -1,12 +1,9 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../images/android-chrome-192x192.png';
 
 const Header = () => {
     // assigning location variable
-    const { pathname } = useLocation();
-
-    // JS split method to get the name of the path in array
-    const splitLocation = pathname.split('/');
+    let location = useLocation();
 
     return (
         <>
@@ -18,10 +15,10 @@ const Header = () => {
                         </a>
                         <div>
                             {/* Check the current pathname using JS ternary operator & if true setting class to active*/}
-                            <NavLink exact className={`nav-link ${splitLocation[1] === '' ? 'active' : ''}`} to='/' >Home</NavLink> {' '}
-                            <NavLink className={`nav-link ${splitLocation[1] === 'about' ? 'active' : ''}`} to='/about' >About</NavLink> {' '}
-                            <NavLink className={`nav-link ${splitLocation[1] === 'projects' ? 'active' : ''}`} to='/projects' >Projects</NavLink> {' '}
-                            <NavLink className={`nav-link ${splitLocation[1] === 'contact' ? 'active' : ''}`} to='/contact' >Contact</NavLink>
+                            <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+                            <Link to="/about" className={location.pathname === '/about' ? 'nav-link active' : 'nav-link'}>About</Link>
+                            <Link to="/projects" className={location.pathname === '/projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
+                            <Link to="/contact" className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
                         </div>
                     </div>
                 </nav>
@@ -31,4 +28,3 @@ const Header = () => {
 }
 
 export default Header;
-
