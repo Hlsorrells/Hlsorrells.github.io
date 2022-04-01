@@ -10,8 +10,10 @@ body {
 }
 footer {
     display: flex;
+    align-self: end;
     width: 100%;
-    margin: 20px auto 5px auto;
+    margin: auto auto 5px auto;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -65,6 +67,11 @@ table {
 th, td {
     padding: 5px;
     color: lightgray;
+}
+.appWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header and Navigation Classes */
