@@ -12,7 +12,7 @@ const App = () => {
         <Route exact path='/about' component={About} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/contact' component={Contact} />
-        <Route component={<h1>404... Page Not Found</h1>} />
+        <Route component={ () => <h1>404... Page Not Found</h1>} />
       </Switch>
     </>
   )
